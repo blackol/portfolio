@@ -342,7 +342,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: c;
+  flex-direction: column;
   min-height: auto;
   padding-bottom: 5rem;
 }
@@ -352,6 +352,7 @@ span {
   flex-wrap: wrap;
   gap: 5rem;
   width: 90%;
+  margin: 10px;
 }
 
 .education-row .education-column {
