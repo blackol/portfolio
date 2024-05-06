@@ -1,296 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Web Site</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/index.css" />
     <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-
-<body>
-
-    <!-- header design -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Anthony COLVIL portfolio</title>
+  </head>
+  <body>
     <header class="header">
-      <a href="#" class="logo">Anthony.C</a>
-
-      <div class="bx bx-menu" id="menu-icon"></div>
-
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+      <nav>
+        <div class="logo">
+          <a href="index.html">Anthony COLVIL</a>
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#Project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
-
     </header>
 
-    <!-- home section design -->
-
-    <section class="home" id="home">
-      <div class="home-content">
-        <h1>HI, I'm <span>Anthony</span></h1>
-        <div class="text-animate">
-          <h3>web developper</h3>
+    <section class="Home-section" id="home">
+      <div class="Veereffechome">
+        <div class="Home">
+          <h1 id="typerwritehome"><spane>HI</spane> I'm Anthony</h1>
         </div>
-        <p>I introduce myself, I am Anthony COLVIL and
-           I am a Full-Stack developer.
-
-        </p>
-          <div class="btn-box">
-            <a href="CV.pdf" download="pdf" class="btn">Hire ME </a>
-            <a href="../portfolio/pagetraveaux.html" class="btn">Let's Talk</a>
-          </div>
       </div>
       <div class="home-sci">
-        <a href="https://www.facebook.com/anthony.colvil.9?locale=fr_FR"><i class='bx bxl-facebook'></i></a>
-        <a href="https://twitter.com/blackcol1"><i class='bx bxl-twitter'></i></a>
-        <a href="https://www.linkedin.com/in/anthony-colvil-142a051a4/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.facebook.com/anthony.colvil.9?locale=fr_FR"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a href="https://twitter.com/blackcol1"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/anthony-colvil-142a051a4/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
       </div>
+    </section>
 
-      <div class="home-imgHover"> 
-        <div class="typewriter"> <!--faire disparaitre en dessous de 1900 de large-->
-          <h1>print("Hello, World!")</h1>
+    <section class="Skills-section" id="skills">
+      <div class="section-title">
+        <h2 class="heading">About <spane>Me</spane></h2>
+      </div>
+      <div class="skill-content">
+        <div class="conding-content">
+          <div class="condingtittre">
+            <h2 class="minititre">About :</h2>
+          </div>
+          <div class="sct">
+            <p>
+              Hello and welcome to my <spane>portfolio!</spane> I'm Anthony
+              COLVIL, a developer passionate about creating interactive
+              experiences and convinced that the web and mobile are endless
+              playgrounds for innovation.
+            </p>
+          </div>
+          <div class="sct">
+            <p>
+              My passion for programming began with my first lines of code. Over
+              the years, I've honed my skills and gained deep expertise in
+              frontend development. My professional journey has allowed me to
+              explore a wide range of technologies, from basic languages like
+              HTML and CSS to modern frameworks like React and AngularJS.
+            </p>
+          </div>
+          <div class="sct">
+            <p>
+              I'm constantly on the lookout for the latest trends and
+              technologies, always ready to tackle new challenges and push the
+              boundaries of what's possible. I strive to create elegant,
+              responsive, and intuitive user interfaces that deliver an
+              exceptional user experience.
+            </p>
+          </div>
+        </div>
+        <div class="skilleffect-content">
+          <h2 class="minititre">My Skills :</h2>
+          <div class="skill-containereffect">
+            <div class="skillcards">Html</div>
+            <div class="skillcards">CSS</div>
+            <div class="skillcards">Javascript</div>
+            <div class="skillcards">NodeJs</div>
+            <div class="skillcards">python</div>
+            <div class="skillcards">JSX</div>
+            <div class="skillcards">Express JS</div>
+            <div class="skillcards">React</div>
+            <div class="skillcards">Angular JS</div>
+            <div class="skillcards">Java</div>
+            <div class="skillcards">PHP</div>
+            <div class="skillcards">C</div>
+            <div class="skillcards">Perl</div>
+            <div class="skillcards">Bash</div>
+            <div class="skillcards">Git</div>
+            <div class="skillcards">Powershell</div>
+            <div class="skillcards">Github</div>
+            <div class="skillcards">SwiftUI</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- about section design -->
-
-    <section class="about" id="about">
-      <h2 class="heading">About <span>Me</span></h2>
-      <div class="about-img">
-        <img src="../portfolio/images/Frame2.png" alt="">
-        <span class="circle-spin"></span>
-      </div>
-      <div class="about-content">
-        <h3>Full-Stact Developper</h3>
-        <p>Anthony Colvil, graduate of a Master's in MIAGE, I am passionate about web and mobile development. My portfolio reflects
-           my growing expertise in creating innovative applications, combining a solid understanding of 
-           technologies with limitless creativity. Explore my projects to discover my commitment 
-           to excellence in every line of code</p>
-        <div class="btn-box btns">
-          <a href="https://github.com/blackol" class="btn">Read More</a>
+    <section class="Education-section" id="Project">
+      <h1>Project</h1>
+      <div class="educationcontainer">
+        <div>
+          <section class="about" id="about">
+            <div class="about-img">
+              <img src="../portfolio/images/Frame2.png" alt="" />
+              <spane class="circle-spin"></spane>
+            </div>
+            <div class="about-content">
+              <h3>Full-Stact Developper</h3>
+              <p>
+                Anthony Colvil, graduate of a Master's in MIAGE, I am passionate
+                about web and mobile development. My portfolio reflects my
+                growing expertise in creating innovative applications, combining
+                a solid understanding of technologies with limitless creativity.
+                Explore my projects to discover my commitment to excellence in
+                every line of code
+              </p>
+            </div>
+          </section>
         </div>
-      </div>
-    </section>
-
-    <!-- education section design -->
-    <h2 class="heading">MY <span>background</span></h2>
-    <section class="education" id="education">
-
-      <div class="education-row">
-        <div class="education-column">
-          <h3 class="title">Education</h3>
-
-          <div class="education-box">
-            <div class="education-content">
-              <div class="content">
-                <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2023</div>
-                <h3>Master Miage - Université des antilles</h3>
-                <p>The MIAGE (Methods of Computer Science Applied to Business Management) degree is a university program focused on the integration of 
-                  computer science and management. It provides students with versatile expertise in software development,
-                   project management, and digital solutions to meet business needs. 
-                  With a rigorous curriculum and hands-on approach, MIAGE graduates are prepared to tackle 
-                  the complex challenges of the professional world.</p>
-              </div>
-            </div>
-
-             <div class="education-content">
-              <div class="content">
-                <div class="year"><i class='bx bxs-calendar'></i> 2018 - 2021</div>
-                <h3>License Miage - Université des antilles</h3>
-                <p>The MIAGE Bachelor's degree is an undergraduate program blending computer science and business management principles.
-                   It equips students with foundational knowledge in software development, project management, and digital 
-                   solutions essential for addressing modern business challenges. 
-                  Through a comprehensive curriculum and practical training, graduates emerge with a strong skill set ready for diverse career opportunities</p>
-              </div>
-            </div>
-
-            <div class="education-content">
-              <div class="content">
-                <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2018</div>
-                <h3>Première année commune aux études de santé - Université des antilles</h3>
-                <p>The first year of health studies introduces students to the fundamental concepts 
-                  and principles of healthcare. Covering topics such as anatomy, physiology, and medical terminology, 
-                  this program lays the groundwork for further specialization in various healthcare fields. Students 
-                  gain a broad understanding of the healthcare system and its challenges, preparing them for advanced
-                   study and eventual practice in healthcare professions.</p>
-              </div>
-            </div>
-
-
-            <div class="education-content">
-              <div class="content">
-                <div class="year"><i class='bx bxs-calendar'></i> 2016 - 2017</div>
-                <h3>Bac S physique-chimie -  Lama-Prévôt</h3>
-                <p></p>
-              </div>
-            </div>
-          </div>
+        <div>
+          <a href="https://github.com/blackol" class="buttonp">More Project</a>
+          <a href="CV.pdf" download="pdf" class="buttonp">Hire ME </a>
         </div>
-
-      </div>
-
-      <div class="education-row">
-        <div class="education-column">
-          <h3 class="title">Experience</h3>
-
-          <div class="education-box">
-            <div class="education-content">
-              <div class="content">
-                <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2022</div>
-                <h3>Technicien parc informatique - CASBT</h3>
-                <p></p>
-              </div>
-            </div>
-
-            <div class="education-content">
-              <div class="content">
-                <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2023</div>
-                <h3>Develloppeur full stack - Avant-Garde</h3>
-                <p></p>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-
-      </div>
-
-
-    </section>
-
-    <!-- skills section design -->
-    <section class="skills" id="skills">
-      <h2 class="heading">MY <span>Skills</span></h2>
-
-      <div class="skills-row">
-        <div class="skills-column">
-          <h3 class="title">Coding Skills</h3>
-
-          <div class="skills-box">
-            <div class="skills-content">
-
-              <div class="progress">
-                <h3>Web: HTML,CSS,Javascript <span>70%</span></h3>
-                <div class="bar"><span></span></div>
-              </div>
-
-              <div class="progress">
-                <h3>Frameworks : React <span>30%</span></h3>
-                <div class="bar"><span></span></div>
-              </div>
-
-              <div class="progress">
-                <h3>Dev Mobile: React Native, SwiftUI <span>50%</span></h3>
-                <div class="bar"><span></span></div>
-              </div>
-
-              <div class="progress">
-                <h3>Programmation: Java,Perl,PHP,python,C  <span>50%</span></h3>
-                <div class="bar"><span></span></div>
-              </div>
-
-               <div class="progress">
-                <h3>Scripting et automatisation : Bash, PowerShell <span>65%</span></h3>
-                <div class="bar"><span></span></div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="skills-column">
-          <h3 class="title">Professional Skills</h3>
-
-          <div class="skills-box">
-            <div class="skills-content">
-
-              <div class="progress">
-                <h3>Gestion de projet Agile <span>35%</span></h3>
-                <div class="bar"><span></span></div>
-              </div>
-
-
-              <div class="progress">
-                <h3>Gestion du temps <span>65%</span></h3>
-                <div class="bar"><span></span></div>
-              </div>
-
-               <div class="progress">
-                <h3>Français(langue maternelle) <span>100%</span></h3>
-                <div class="bar"><span></span></div>
-              </div>
-
-               <div class="progress">
-                <h3>English <span>40%</span></h3>
-                <div class="bar"><span></span></div>
-              </div>
-
-              </div>
-
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
 
-    <!-- contact section design -->
+    <section class="Contact-section" id="contact">
+      <h2>Contact</h2>
+      <form
+        class="mail"
+        action="mailto:anthonycolvil@gmail.com"
+        method="get"
+        enctype="text/plain"
+      >
+        <p>Nom: <input type="text" name="name" /></p>
+        <p>Email: <input type="text" name="email" /></p>
+        <p>
+          Commentaires:
+          <br />
+          <textarea
+            placeholder="message"
+            name="comments"
+            rows="12"
+            cols="35"
+          ></textarea>
+          <br />
+        </p>
 
-    <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me!</span></h2>
-
-      <form action="mailto:anthonycolvil@gmail.com" method="post" enctype="text/plain">
-        <div class="input-box">
-          <div class="input-field">
-            <input type="text" placeholder="Full Name" required>
-            <span class="focus"></span>
-          </div>
-           <div class="input-field">
-            <input type="text" placeholder="Email Address" required>
-            <span class="focus"></span>
-          </div>
-        </div>
-
-        <div class="input-box">
-          <div class="input-field">
-            <input type="number" placeholder="Mobile Number" required>
-            <span class="focus"></span>
-          </div>
-           <div class="input-field">
-            <input type="text" placeholder="Email Subject" required>
-            <span class="focus"></span>
-          </div>
-        </div>
-
-        <div class="textarea-field">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-          <span class="focus"></span>
-        </div>
-        <div class="btn-box btns">
-          <button type="submit" class="btn">Submit</button>
-        </div>
+        <p>
+          <input type="submit" name="submit" value="Send" class="buttoni" />
+          <input type="reset" name="reset" value="Clear Form" class="buttoni" />
+        </p>
       </form>
     </section>
 
-    <!-- footer design -->
-    <footer class="footer">
-      <div class="footer-text">
-        
+    <footer>
+      <div class="home-sci">
+        <a href="https://www.facebook.com/anthony.colvil.9?locale=fr_FR"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a href="https://twitter.com/blackcol1"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/anthony-colvil-142a051a4/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
       </div>
     </footer>
 
-
-    <script src="js/script.js"></script>
-</body>
-
+    <script src="./JS/index.js"></script>
+  </body>
 </html>
