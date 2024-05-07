@@ -229,12 +229,7 @@ spane {
   color: var(--bg-color);
 }
 
-.Contact-section {
-  background-color: var(--second-bg-color);
-  justify-content: center;
-  color: var(--text-color);
-  font-size: 6rem;
-}
+
 
 /*Contact section*/
 .Contact-section {
@@ -243,6 +238,13 @@ spane {
   align-items: center;
   flex-direction: column;
   font-size: 2rem;
+  background-color: var(--second-bg-color);
+  color: var(--text-color);
+}
+
+.Contact-section h2{
+  margin-top: -80px;
+  margin-bottom: 60px;
 }
 
 .mail {
@@ -266,7 +268,7 @@ input {
 }
 textarea {
   width: 100%;
-  height: 30vh;
+  height: 19vh;
   padding: 5px;
   border-radius: 5px;
   font-size: medium;
@@ -291,116 +293,7 @@ textarea {
   color: #fff;
 }
 
-@media (max-width: 728px) {
-  h1 {
-    font-size: 0.5rem;
-  }
 
-  .menu {
-    flex-direction: column;
-    background-color: #151418;
-    align-items: start;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    transform: scale(1, 0);
-    transform-origin: top;
-    transition: transform 0.3s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  }
-
-  .menu a {
-    margin-left: 12px;
-  }
-
-  .menu li {
-    margin-bottom: 10px;
-  }
-
-  .menu-icon {
-    display: block;
-    color: #fff;
-    font-size: 28px;
-    cursor: pointer;
-  }
-  .conding-content {
-    height: auto;
-    width: 100%;
-  }
-
-  .skilleffect-content {
-    flex-direction: column;
-
-    width: 100%;
-  }
-  .skill-content {
-    flex-direction: column;
-    height: 110vh;
-  }
-}
-
-@media (max-width: 980px) {
-  .menu {
-    flex-direction: column;
-    background-color: #151418;
-    align-items: start;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    transform: scale(1, 0);
-    transform-origin: top;
-    transition: transform 0.3s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  }
-
-  .menu a {
-    margin-left: 12px;
-  }
-
-  .menu li {
-    margin-bottom: 10px;
-  }
-
-  .menu-icon {
-    display: block;
-    color: #fff;
-    font-size: 28px;
-    cursor: pointer;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .conding-content {
-    height: auto;
-    width: 100%;
-  }
-
-  .skilleffect-content {
-    flex-direction: column;
-    width: 100%;
-  }
-  .skill-content {
-    flex-direction: column;
-    height: 130vh;
-  }
-}
-
-@media (min-width: 980px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
-@media (min-width: 1280px) {
-  h1 {
-    font-size: 4rem;
-  }
-}
 
 .home-sci {
   margin: 20px;
@@ -526,4 +419,156 @@ span {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+}
+
+
+
+@media (max-width: 728px) {
+  h1 {
+    font-size: 0.5rem;
+  }
+
+  .menu {
+    flex-direction: column;
+    background-color: #151418;
+    align-items: start;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .menu a {
+    margin-left: 12px;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .conding-content {
+    height: auto;
+    width: 100%;
+  }
+
+  .skilleffect-content {
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .skill-content {
+    flex-direction: column;
+    height: 110vh;
+  }
+  .sct {
+    font-size: 0.5rem;
+  }
+  .heading{
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .sct {
+    font-size: 1rem;
+  }
+  .heading{
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+  }
+  .minititre {
+    font-size: 1.5rem;
+  }
+  .section-title {
+    padding-bottom: 20px;
+  }
+  .skillcards {
+    font-size: 1rem;
+    padding: 8px;
+  }
+  .about-img{
+     width: 10rem;
+    height: 10rem;
+  }
+  .about-content h3 {
+    font-size: 1.5rem;
+  }
+  .about-content p {
+    font-size: 1.2rem;
+  }
+  .menu {
+    flex-direction: column;
+    background-color: #151418;
+    align-items: start;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .menu a {
+    margin-left: 12px;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .conding-content {
+    height: auto;
+    width: 100%;
+  }
+
+  .skilleffect-content {
+    flex-direction: column;
+    width: 100%;
+  }
+  .skill-content {
+    flex-direction: column;
+    height: 130vh;
+  }
+}
+
+@media (min-width: 980px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .sct {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .sct {
+    font-size: 2rem;
+  }
 }
